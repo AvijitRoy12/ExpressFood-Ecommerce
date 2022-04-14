@@ -1,0 +1,257 @@
+#title {
+    background: radial-gradient(#f6f6f6, rgb(184, 255, 176));
+    padding: 0% 15% 1% 15%;
+    position: relative;
+    z-index: 1;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.container-fluid {
+}
+
+.topbar {
+    color: #ffffff;
+    margin: 0;
+    text-align: center !important;
+}
+
+.topbar a {
+    color: #ffffff;
+    float: left;
+}
+
+.topbar a:hover {
+    color: #8de383;
+}
+
+.topbar p {
+    color: #9a9898;
+
+}
+
+.logoText {
+    font-family: Sacramento;
+    color: #446404;
+    text-align: center;
+    text-shadow: 2px 2px 4px #afacac;
+}
+
+/*NavBar*/
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav a {
+    color: #3f3f3f !important;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.navbar-nav a:hover {
+    background: #c4ffd3;
+    color: #085201 !important;
+}
+.navbar-nav a.active {
+    background: #c4ffd3 !important;
+}
+
+/*NavBar*/
+
+/*Title*/
+.title-section {
+    margin-top: 100px;
+}
+
+.title-text {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #406b3a;
+}
+.title-slogan {
+   margin-top: 50px;
+    color: #446050 !important;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.fruit-image1 {
+    width: 90%;
+    transform: rotate(30deg);
+}
+
+
+/* Features */
+#features {
+    padding: 3% 15%;
+    text-align: center;
+    color: white;
+
+}
+
+.features-icon {
+    color: #ef8172;
+    padding-bottom: 5%;
+}
+
+.features-icon:hover {
+    color: #a4bb67;
+}
+
+h2 {
+    font-size: 3rem !important;
+    font-weight: bold !important;
+    padding: 2% 0 !important;
+}
+
+h3 {
+    font-weight: bold !important;
+    color: black !important;
+
+}
+
+.features-text {
+    color: grey;
+    padding: 0 4.5%;
+}
+
+/* Testimonials section */
+#testimonials {
+    padding: 2% 15% 2% 15%;
+    text-align: center;
+    background: radial-gradient(#c9c8c8, rgb(184, 255, 176));
+    color: white;
+}
+
+.testimonial-image {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+.slider-image{
+    width: 40%;
+    object-fit: contain;
+}
+
+/* Press section */
+#press {
+    padding: 3% 15%;
+    text-align: center;
+    background-color: #232222;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 0 20px;
+}
+
+/* Pricing */
+#pricing {
+    text-align: center;
+    padding: 2% 15% 2% 15%;
+}
+
+.pricing-text {
+    padding: 0 0 2% 0;
+}
+
+/* CTA */
+#cta {
+    padding: 3% 15% 0 15%;
+    background-color: #8bce80;
+}
+
+#cta h3 {
+    color: #fdfdfd !important;
+}
+.classic-btn {
+    display: inline-block;
+    background: #79bd6f !important;
+    color: #ffffff !important;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px !important;
+    transition: background 0.5s;
+}
+.classic-btn:hover {
+    background: #308327 !important;
+    color: #fff;
+}
+
+/*Top Products*/
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 50px;
+
+}
+
+.col-4 {
+    text-align: center;
+    min-width: 200px;
+    transition: transform 0.5s;
+    border-style: solid;
+    border-color: #e8ffe8;
+}
+
+.col-4 img {
+    height: 250px;
+    width: 200px;
+    object-fit: contain;
+
+}
+
+.title-h3 {
+    text-align: center;
+    margin: 30px auto 30px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after {
+    content: "";
+    background: #8de383;
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    color: #555;
+    font-weight: normal;
+}
+.col-5 img{
+    width: 10%;
+    float: left;
+}
+
+.col-4 p {
+    font-size: 14px;
+}
+
+.rating .fa {
+    color: #8de383;
+}
+
+.col-4:hover {
+    transform: translateY(-5px);
+}
+.col-5{
+    float: left;
+}
